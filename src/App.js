@@ -1,11 +1,10 @@
-// import logo from './logo.svg';
 import './App.css';
 import Home from './componets/Home';
 
 function App() {
   return (
     <div className="App">
-      <h2>Hola Mundo</h2>
+      <h1>My Pokemon App</h1>
       <Home />
     </div>
   );

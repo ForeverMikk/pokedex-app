@@ -1,0 +1,29 @@
+.home { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    display: inline-block;
+    width: 17rem;
+}
+.form input, .form button {
+    padding: 0.5rem 0;
+}
+.form input {
+    width: 12rem;
+    padding-left: 0.5rem;
+    font-size: large;
+    border: 2px solid #fff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.form button {
+    width: 4rem;
+    font-size: large;
+    border: 2px solid #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #000;
+}
