@@ -4,6 +4,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import './Home.css'
 import PokemonCard from './PokemonCard';
+import BackToTop from './BackToTop'
 
 
 const Home = () => {
@@ -32,6 +33,8 @@ const Home = () => {
             </form>
 
             <PokemonCard {...pokemonData}/>
+
+            <BackToTop />
 
         </div>
     )
