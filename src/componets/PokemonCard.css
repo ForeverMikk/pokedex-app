@@ -24,11 +24,23 @@
     width: 160px;
 }
 
+.pokemon-card .pokemon-types {
+    margin:  1rem;
+    border-radius: 5px;
+    border: 1px solid #61DAFB;
+}
+
 .pokemon-card .poke-id, .pokemon-card .poke-name  {
     margin:  1rem;
     padding: 0.5rem 1rem;
     border-radius: 5px;
     color: #fff;
+    border: 1px solid #61DAFB;
+}
+
+.pokemon-card .pokemon-stats {
+    margin:  1rem;
+    border-radius: 5px;
     border: 1px solid #61DAFB;
 }
 
